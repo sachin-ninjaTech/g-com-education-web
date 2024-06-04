@@ -1,0 +1,83 @@
+/* #app {
+  height: 100%;
+} */
+/* html,
+body {
+  position: relative;
+  height: 100%;
+} */
+/* 
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+/* slider up content  */
+.feature{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.feature-btn {
+  display: flex;
+  gap: 15px;
+}
+.feature h6 {
+  color: #0F0054;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.swiper-slide.blur img {
+  opacity: 0.3; /* Adjust the opacity value as needed */
+}
+.slider-div{
+  height:544px;
+}
+.btn-1{
+  border: 1px solid black;
+  padding: 0px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: white;
+  width: 40px;
+}
+.slider-down-div {
+   display: flex;
+   flex-flow: wrap;
+   margin-top: 15px;
+   max-width: 540px;
+}
+.slider-down-div h3 {
+  color: #555555;
+  font-size: 30px;
+  font-weight: 700;
+}
+.slider-down-div p {
+  color: #9A9A9A;
+  font-size: 17px;
+}

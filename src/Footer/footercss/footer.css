@@ -1,0 +1,31 @@
+footer img {
+  filter: grayscale(1) invert(1) brightness(100);
+}
+.latesttweets {
+  gap: 1px;
+}
+ul li {
+  list-style: none;
+  padding: 8px 0px;
+}
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+}
+.main-clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child-foot{
+    padding: 20px 0px;
+}
+.span-text{
+  color: "#FFFFFF";
+  font-size: "14px"
+}
+.logo-content{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
